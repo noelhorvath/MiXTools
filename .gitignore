@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/MiX/DesignTimeBuild/.dtbcache.v2
+/.vs/MiX/v17/.futdcache.v1
+/.vs/MiX/v17/.suo

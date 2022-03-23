@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APPLICATION_SETTINGS" xml:space="preserve">
+    <value>Настройки приложения</value>
+  </data>
+  <data name="APP_IS_ALREADY_RUNNING" xml:space="preserve">
+    <value>Не могу открыть приложение, потому что оно уже запущено в другом процессе!</value>
+  </data>
+  <data name="ASSISTANT_BUTTON_URL_OR_FILE" xml:space="preserve">
+    <value>URL / файл для кнопки помощника</value>
+  </data>
+  <data name="CANNOT_ACCESS_MI_SCREEN_SAVER" xml:space="preserve">
+    <value>Невозможно получить доступ к Mi Screen Saver, потому что он не существует или путь к Mi OSD Utility не настроен!</value>
+  </data>
+  <data name="CHANGE" xml:space="preserve">
+    <value>Изменять</value>
+  </data>
+  <data name="DARK_MODE" xml:space="preserve">
+    <value>Темный режим</value>
+  </data>
+  <data name="DEV_SETTINGS" xml:space="preserve">
+    <value>Настройки разработчика</value>
+  </data>
+  <data name="EN" xml:space="preserve">
+    <value>английский</value>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="FOLDER_LOCATION" xml:space="preserve">
+    <value>Расположение папки</value>
+  </data>
+  <data name="HU" xml:space="preserve">
+    <value>венгерский</value>
+  </data>
+  <data name="INFO" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LAUNCH_MODE" xml:space="preserve">
+    <value>Режим запуска</value>
+  </data>
+  <data name="LOG_CONSOLE" xml:space="preserve">
+    <value>Консоль журнала</value>
+  </data>
+  <data name="LOG_CONSOLE_ON_STARTUP" xml:space="preserve">
+    <value>Открыть консоль журнала при запуске</value>
+  </data>
+  <data name="MIXTOOLS" xml:space="preserve">
+    <value>MiXTools</value>
+  </data>
+  <data name="OPEN" xml:space="preserve">
+    <value>открыть</value>
+  </data>
+  <data name="OPEN_LOG_CONSOLE" xml:space="preserve">
+    <value>Открыть консоль журнала</value>
+  </data>
+  <data name="OSDLAUNCHER_EXE_NOT_FOUND" xml:space="preserve">
+    <value>OSDLauncher.exe не найден в выбранной папке!</value>
+  </data>
+  <data name="OSD_PATH_IS_NOT_SET" xml:space="preserve">
+    <value>Путь для Mi OSD Utility не настроен!</value>
+  </data>
+  <data name="OSD_SETTINGS" xml:space="preserve">
+    <value>Mi OSD Utility настройки</value>
+  </data>
+  <data name="RESET_APPDATA" xml:space="preserve">
+    <value>Сбросить данные приложения</value>
+  </data>
+  <data name="RU" xml:space="preserve">
+    <value>русский</value>
+  </data>
+  <data name="RUNAS" xml:space="preserve">
+    <value>запустить от имени администратора</value>
+  </data>
+  <data name="SELECT_LAUNCH_MODE" xml:space="preserve">
+    <value>Хотели бы вы запускать выбранную программу от имени администратора при нажатии кнопки помощника?</value>
+  </data>
+  <data name="SELECT_LAUNCH_MODE_TITLE" xml:space="preserve">
+    <value>Режим запуска</value>
+  </data>
+  <data name="SETTINGS" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SHOW_MI_SCREEN_SAVER" xml:space="preserve">
+    <value>Показать заставку Mi</value>
+  </data>
+  <data name="UAFL_DOWNLOAD_FAILED" xml:space="preserve">
+    <value>Приложению не удалось загрузить исполняемый файл URLAndFilelauncher из репозитория GitHub. Пожалуйста, проверьте, есть ли у вас подключение к Интернету, чтобы загрузить необходимый файл и перезапустите приложение!</value>
+  </data>
+  <data name="UAFL_FILE_IS_MISSING" xml:space="preserve">
+    <value>uafl.exe отсутствует в каталоге приложения!</value>
+  </data>
+  <data name="UAFL_MODE" xml:space="preserve">
+    <value>Pежим УАФЛ</value>
+  </data>
+  <data name="UAFL_MODE_CANNOT_BE_CHANGED" xml:space="preserve">
+    <value>Только файлы .lnk и .exe можно запускать от имени администратора!</value>
+  </data>
+  <data name="UNAUTHORIZED_ACCEUNAUTHORIZED_ACCESS" xml:space="preserve">
+    <value>Приложение необходимо запускать от имени администратора!</value>
+  </data>
+  <data name="VERSION" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="VISIT_GITHUB" xml:space="preserve">
+    <value>Посетите GitHub</value>
+  </data>
+</root>

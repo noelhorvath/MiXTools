@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MiXTools.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">app.db</Value>
+    </Setting>
+    <Setting Name="DBFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Database</Value>
+    </Setting>
+    <Setting Name="DarkMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OpenLogConsoleOnStartup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CurrentLanguage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EN</Value>
+    </Setting>
+    <Setting Name="SupportedLanugages" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EN_RU_HU</Value>
+    </Setting>
+    <Setting Name="AppVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1.0.0</Value>
+    </Setting>
+    <Setting Name="UAFLVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1.1.1-mxt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
